@@ -213,11 +213,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = "";
+						DevelopmentTeam = 64WAG22Y2J;
+						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = "";
+						DevelopmentTeam = 64WAG22Y2J;
+						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -531,6 +533,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E27078E24682FCE315325D53 /* Pods-UIKobeKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = 64WAG22Y2J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -558,6 +562,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40547E5D074791EBB0C6E027 /* Pods-UIKobeKit_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = 64WAG22Y2J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
