@@ -1,0 +1,16 @@
+PODS:
+  - UIKobeKit (0.1.0)
+
+DEPENDENCIES:
+  - UIKobeKit (from `../`)
+
+EXTERNAL SOURCES:
+  UIKobeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIKobeKit: 3d71f57c34dbee2ff8bd361bb4a54c6755bdbb92
+
+PODFILE CHECKSUM: df3ac0d2990b2babcb528bb01fb83a6fdcda0815
+
+COCOAPODS: 1.14.2

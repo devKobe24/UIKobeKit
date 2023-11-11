@@ -1,0 +1,6 @@
+framework module UIKobeKit {
+  umbrella header "UIKobeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
