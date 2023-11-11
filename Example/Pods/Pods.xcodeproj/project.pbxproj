@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		01842D726650CEA8E71C00F69D9A25B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1283E90A1AF4C5BB8D25C0563B681B03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1B837CC65F1D735C81D6E5047ED4F805 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242A95FEA10456C31D4295683878055F /* ReplaceMe.swift */; };
+		1B837CC65F1D735C81D6E5047ED4F805 /* UIKobeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242A95FEA10456C31D4295683878055F /* UIKobeKit.swift */; };
 		2BC02C5580C3DE5D43FE7D5EB0321B97 /* UIKobeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F6FD3D6A5F7F14B0DFB67743A09AF /* UIKobeKit-dummy.m */; };
 		38068E7D113D6F4DBD66C5DF30CBEF0C /* Pods-UIKobeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCA0C369EAF610286CA4B97CCB1ABA /* Pods-UIKobeKit_Example-dummy.m */; };
 		6815F64DF8DA582B09EA49AD3DECED42 /* Pods-UIKobeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F59486A357F3BF6E25E9B3D1AFBCCFA /* Pods-UIKobeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +45,7 @@
 		0F59486A357F3BF6E25E9B3D1AFBCCFA /* Pods-UIKobeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKobeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		20E0B35126563E517525CC4D68AF2469 /* Pods-UIKobeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKobeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		226F6FD3D6A5F7F14B0DFB67743A09AF /* UIKobeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIKobeKit-dummy.m"; sourceTree = "<group>"; };
-		242A95FEA10456C31D4295683878055F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UIKobeKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		242A95FEA10456C31D4295683878055F /* UIKobeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKobeKit.swift; path = UIKobeKit/Classes/UIKobeKit.swift; sourceTree = "<group>"; };
 		2EA39E55644228F18F241D6C752E868B /* Pods-UIKobeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKobeKit_Tests.modulemap"; sourceTree = "<group>"; };
 		40EABE93165049F03FE996130FE019AE /* Pods-UIKobeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKobeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41D3884ECC0BFFF7AF082777D904BB0F /* Pods-UIKobeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKobeKit_Example.modulemap"; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 		A79F0400563DD5760954AA94C1C8F8B1 /* UIKobeKit */ = {
 			isa = PBXGroup;
 			children = (
-				242A95FEA10456C31D4295683878055F /* ReplaceMe.swift */,
+				242A95FEA10456C31D4295683878055F /* UIKobeKit.swift */,
 				14947A44EFFEB02CD2672121A9E563D4 /* Pod */,
 				916A617B0D551DC8BD7AAA24F1988FE3 /* Support Files */,
 			);
@@ -383,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B837CC65F1D735C81D6E5047ED4F805 /* ReplaceMe.swift in Sources */,
+				1B837CC65F1D735C81D6E5047ED4F805 /* UIKobeKit.swift in Sources */,
 				2BC02C5580C3DE5D43FE7D5EB0321B97 /* UIKobeKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
