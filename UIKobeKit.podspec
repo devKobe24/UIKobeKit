@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIKobeKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'You can create a color by using HEX values instead of RGB values.'
   s.description      = 'Unlike the cumbersome process of inputting RGB values one by one to create color values, with UIKobeKit, you can easily and quickly create your own unique and special colors using HEX values. Now, you can effortlessly and swiftly generate colors with HEX values, without the hassle of dealing with RGB values.'
   s.homepage         = 'https://github.com/devKobe24/UIKobeKit'
