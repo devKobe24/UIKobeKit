@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'devKobe24' => 'dev.skyachieve91@gmail.com' }
-  s.source           = { :git => 'https://github.com/devKobe24/UIKobeKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/devKobe24/UIKobeKit.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '13.0'
-  s.source_files = 'UIKobeKit/Classes/**/*'
+  s.source_files = 'UIKobeKit/Classes/UIKobeKit.swift'
   s.frameworks = 'UIKit'
 end
