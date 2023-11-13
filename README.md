@@ -34,7 +34,7 @@ let myColor = UIColor(
 
 ## Installation
 
-UIKobeKit is available through [CocoaPods](https://cocoapods.org). To install
+UIKobeKit is available through [CocoaPods](https://cocoapods.org/pods/UIKobeKit). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
