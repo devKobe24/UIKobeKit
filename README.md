@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/UIKobeKit.svg?style=flat)](https://cocoapods.org/pods/UIKobeKit)
 [![License](https://img.shields.io/cocoapods/l/UIKobeKit.svg?style=flat)](https://cocoapods.org/pods/UIKobeKit)
 [![Platform](https://img.shields.io/cocoapods/p/UIKobeKit.svg?style=flat)](https://cocoapods.org/pods/UIKobeKit)
+[![SwiftPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
 
 🎨 Swift library that creates colors quickly and easily using HEX values.
 
