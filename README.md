@@ -35,8 +35,17 @@ let myColor = UIColor(
 
 ## Installation
 
-UIKobeKit is available through [CocoaPods](https://cocoapods.org/pods/UIKobeKit). To install
-it, simply add the following line to your Podfile:
+The [Swift Package Manager](https://www.swift.org/package-manager/)is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
+
+Once you have your Swift package set up, adding `UIKobeKit` as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift.`
+
+```ruby
+dependencies: [
+    .package(url: "https://github.com/devKobe24/UIKobeKit.git", .upToNextMajor(from: "0.3.1"))
+]
+```
+### CocoaPods
+[CocoaPods](https://cocoapods.org/pods/UIKobeKit)is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate `UIKobeKit` into your Xcode project using CocoaPods, specify it in your Podfile:
 
 ```ruby
 pod 'UIKobeKit'
@@ -45,7 +54,3 @@ pod 'UIKobeKit'
 ## Author
 
 Kobe, dev.skyachieve91@gmail.com
-
-## License
-
-UIKobeKit is available under the MIT license. See the LICENSE file for more info.
