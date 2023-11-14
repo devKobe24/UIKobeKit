@@ -48,7 +48,7 @@ enum UIKobeKitError: LocalizedError {
     var errorDescription: String? {
         switch self {
         case .invalidHEXCode:
-            "Use of invalid HEX CODE value."
+            return "Use of invalid HEX CODE value."
         }
     }
 }
