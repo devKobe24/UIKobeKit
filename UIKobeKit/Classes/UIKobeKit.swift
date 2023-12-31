@@ -23,8 +23,8 @@ extension UIColor {
         Scanner(string: hexFormatted).scanHexInt64(&rgbColorValue)
         
         self.init(
-            red: CGFloat((rgbColorValue & ColorCode.firstBlack.value) >> 16) / 255.0,
-            green: CGFloat((rgbColorValue & ColorCode.secondBlack.value) >> 8) / 255.0,
+            red: CGFloat((rgbColorValue & ColorCode.red.value) >> 16) / 255.0,
+            green: CGFloat((rgbColorValue & ColorCode.green.value) >> 8) / 255.0,
             blue: CGFloat(rgbColorValue & ColorCode.blue.value) / 255.0,
             alpha: alpha
         )
@@ -54,15 +54,15 @@ enum UIKobeKitError: LocalizedError {
 }
 
 enum ColorCode {
-    case firstBlack
-    case secondBlack
+    case red
+    case green
     case blue
     
     var value: UInt64 {
         switch self {
-        case .firstBlack:
+        case .red:
             return 0xFF0000
-        case .secondBlack:
+        case .green:
             return 0x00FF00
         case .blue:
             return 0x0000FF
